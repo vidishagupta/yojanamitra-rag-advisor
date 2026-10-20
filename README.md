@@ -8,7 +8,7 @@
 [![Vite](https://img.shields.io/badge/Vite-6.0+-646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-> **Award-Winning 4th-Year B.Tech Major Project** in Computer Science & Engineering.  
+> **4th-Year B.Tech Project** in Computer Science & Engineering.  
 > An AI-powered, constraint-evaluated, multilingual advisory system designed to bridge the digital literacy gap for Indian citizens seeking Central & State Government Welfare Schemes.
 
 ---
