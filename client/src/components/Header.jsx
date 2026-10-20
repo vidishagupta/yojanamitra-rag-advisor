@@ -107,7 +107,7 @@ export default function Header({
 
           {/* GitHub Link */}
           <a 
-            href="https://github.com" 
+            href="https://github.com/vidishagupta/yojanamitra-rag-advisor" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="btn btn-secondary btn-icon"

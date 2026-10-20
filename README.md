@@ -1,6 +1,7 @@
 # 🏛️ योजनामित्र (YojanaMitra): Eligibility-Aware Retrieval-Augmented Advisor for Government Schemes in Hindi & Hinglish
 
-[![B.Tech Capstone Project](https://img.shields.io/badge/B.Tech-Final%20Year%20Capstone-blue.svg?style=for-the-badge&logo=academic-pages)](https://github.com)
+[![B.Tech Capstone Project](https://img.shields.io/badge/B.Tech-Final%20Year%20Capstone-blue.svg?style=for-the-badge&logo=academic-pages)](https://github.com/vidishagupta/yojanamitra-rag-advisor)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f?style=for-the-badge&logo=github)](https://vidishagupta.github.io/yojanamitra-rag-advisor/)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React 19](https://img.shields.io/badge/React-19-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
@@ -13,6 +14,9 @@
 ---
 
 ## 🌟 Live Demo & Highlights
+
+🌐 **Public Live Demo:** [https://vidishagupta.github.io/yojanamitra-rag-advisor/](https://vidishagupta.github.io/yojanamitra-rag-advisor/)  
+📦 **Source Repository:** [https://github.com/vidishagupta/yojanamitra-rag-advisor](https://github.com/vidishagupta/yojanamitra-rag-advisor)
 
 - **Languages Supported**: **Pure Hindi (हिन्दी देवनागरी)**, **Hinglish (Code-mixed Roman Hindi)**, and **English**.
 - **Eligibility-Aware Intelligence**: Replaces naive semantic search with strict mathematical & legal constraint checks (Age, Income, Occupation, Land Ownership, Domicile).
