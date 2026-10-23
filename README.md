@@ -126,32 +126,9 @@ npm run dev
 │   │   └── index.css                # Glassmorphism tokens & typography
 │   ├── index.html                   # HTML entry with Google Fonts (Outfit & Devanagari)
 │   └── package.json                 # Frontend dependencies
-├── DEPLOYMENT_GUIDE.md              # Instructions for GitHub & Vercel deployment
 ├── start.bat                        # Windows 1-click launcher
 └── README.md                        # Master documentation
 ```
-
----
-
-## 💡 Technical Architecture & Methodology FAQ
-
-<details>
-<summary><strong>Q1: Why is this approach superior to generic ChatGPT or LangChain RAG?</strong></summary>
-
-> *Answer:* Generic LLMs hallucinate eligibility criteria, often recommending schemes where the citizen is legally disqualified (e.g. recommending PM-KISAN to landless tenant farmers, or Ayushman Bharat to families earning > ₹2.5 Lakh). Our system applies **Deterministic Constraint Verification** *before* generating responses, ensuring 100% legal compliance.
-</details>
-
-<details>
-<summary><strong>Q2: How is Hinglish colloquial variation handled?</strong></summary>
-
-> *Answer:* Citizens write Hinglish with non-standard phonetic spellings (e.g., *kisaan, kisan, kheti, khet*). We employ a vocabulary intent normalizer that maps Romanized colloquial keywords into canonical ministry taxonomy entities before hybrid retrieval.
-</details>
-
-<details>
-<summary><strong>Q3: How does the application handle rural users with limited literacy?</strong></summary>
-
-> *Answer:* We integrated the Web Speech API to provide dual voice modalities: **Speech-to-Text** (citizens can dictate queries in Hindi or Indian English) and **Text-to-Speech** (the advisor speaks out the response, benefits, and documents required).
-</details>
 
 ---
 
