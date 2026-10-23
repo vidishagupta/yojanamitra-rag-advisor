@@ -56,8 +56,8 @@ export default function ChatAdvisor({ language, onSelectScheme, userProfile }) {
     {
       label: "🎓 Student Scholarship",
       query: language === 'hindi'
-        ? "मैं 21 साल का बीटेक छात्र हूँ, कॉलेज फीस और हॉस्टल के लिए सरकारी स्कॉलरशिप बताओ"
-        : "Main 21 saal ka B.Tech college student hoon, padhai ke liye scholarship ya stipend milega?"
+        ? "मैं 21 साल का कॉलेज छात्र हूँ, कॉलेज फीस और पढ़ाई के लिए सरकारी स्कॉलरशिप बताओ"
+        : "Main 21 saal ka college student hoon, padhai ke liye scholarship ya stipend milega?"
     },
     {
       label: "💼 Business / Mudra Loan",

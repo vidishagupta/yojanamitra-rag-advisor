@@ -372,7 +372,7 @@ INSTRUCTIONS:
             print(f"[RAG Engine] Gemini API call bypassed/failed ({e}), using built-in generator.")
 
     # 2. Built-in High-Fidelity Deterministic Multilingual Generator
-    # Guarantees flawless, instant results during viva and presentations with zero API cost!
+    # Guarantees flawless, instant results with zero API cost and 100% offline reliability.
     primary_scheme = top_schemes[0] if top_schemes else None
     
     if not primary_scheme:

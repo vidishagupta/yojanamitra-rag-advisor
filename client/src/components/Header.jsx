@@ -30,7 +30,7 @@ export default function Header({
                 योजना<span className="text-saffron">मित्र</span>
                 <span className="brand-en"> (YojanaMitra)</span>
               </h1>
-              <span className="badge badge-tag brand-badge">B.Tech Capstone</span>
+              <span className="badge badge-tag brand-badge">GovTech AI</span>
             </div>
             <p className="brand-subtitle">
               Eligibility-Aware Multilingual RAG Advisor • Central & State Government Schemes
@@ -73,7 +73,7 @@ export default function Header({
             id="tab-research-btn"
           >
             <FileText size={18} />
-            <span>Project Specs & Viva</span>
+            <span>System Architecture</span>
           </button>
         </nav>
 

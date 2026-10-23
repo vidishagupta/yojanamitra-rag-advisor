@@ -1296,7 +1296,7 @@
 }
 
 /* =========================================
-   RESEARCH & VIVA SPECS
+   SYSTEM ARCHITECTURE & TECHNICAL SPECS
 ========================================= */
 .research-container {
   display: flex;
@@ -1304,18 +1304,18 @@
   gap: 28px;
 }
 
-.capstone-hero-card {
+.arch-hero-card {
   padding: 28px;
   border-left: 4px solid var(--saffron);
 }
 
-.capstone-badge-row {
+.arch-badge-row {
   display: flex;
   gap: 8px;
   margin-bottom: 12px;
 }
 
-.capstone-title {
+.arch-title {
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--text-primary);
@@ -1323,7 +1323,7 @@
   margin-bottom: 8px;
 }
 
-.capstone-authors {
+.arch-authors {
   font-size: 0.85rem;
   color: var(--text-secondary);
 }
@@ -1449,7 +1449,7 @@
   background: rgba(255, 255, 255, 0.02);
 }
 
-.viva-panel {
+.faq-panel {
   padding: 24px;
 }
 

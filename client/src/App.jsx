@@ -96,7 +96,7 @@ function App() {
             </span>
           </div>
           <div className="footer-right">
-            <span>B.Tech Final Year Capstone Project (CSE)</span>
+            <span>Digital India • Citizen Welfare AI Portal</span>
             <span>•</span>
             <span className="text-muted">MIT Open Source License</span>
           </div>

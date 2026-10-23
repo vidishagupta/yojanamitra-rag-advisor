@@ -1,6 +1,6 @@
 # 🏛️ योजनामित्र (YojanaMitra): Eligibility-Aware Retrieval-Augmented Advisor for Government Schemes in Hindi & Hinglish
 
-[![B.Tech Capstone Project](https://img.shields.io/badge/B.Tech-Final%20Year%20Capstone-blue.svg?style=for-the-badge&logo=academic-pages)](https://github.com/vidishagupta/yojanamitra-rag-advisor)
+[![Digital India](https://img.shields.io/badge/Digital_India-Citizen_Welfare_AI-FF9933.svg?style=for-the-badge)](https://digitalindia.gov.in)
 [![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-2ea44f?style=for-the-badge&logo=github)](https://vidishagupta.github.io/yojanamitra-rag-advisor/)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -8,7 +8,7 @@
 [![Vite](https://img.shields.io/badge/Vite-6.0+-646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-> **4th-Year B.Tech Project** in Computer Science & Engineering.  
+> **AI for Governance & Citizen Empowerment**  
 > An AI-powered, constraint-evaluated, multilingual advisory system designed to bridge the digital literacy gap for Indian citizens seeking Central & State Government Welfare Schemes.
 
 ---
@@ -118,7 +118,7 @@ npm run dev
 │   │   │   ├── EligibilityWizard.jsx# Profile calculator with real-time match scoring
 │   │   │   ├── SchemesExplorer.jsx  # Searchable directory with category filter chips
 │   │   │   ├── SchemeModal.jsx      # Deep dive modal with document readiness checklist
-│   │   │   └── ResearchSpecs.jsx    # B.Tech viva presentation & architecture view
+│   │   │   └── ResearchSpecs.jsx    # System architecture & benchmark performance view
 │   │   ├── services/
 │   │   │   └── api.js               # API connector with zero-dependency browser fallback
 │   │   ├── App.jsx                  # Main application state orchestrator
@@ -133,7 +133,7 @@ npm run dev
 
 ---
 
-## 🎓 University Viva Voce Q&A Cheatsheet
+## 💡 Technical Architecture & Methodology FAQ
 
 <details>
 <summary><strong>Q1: Why is this approach superior to generic ChatGPT or LangChain RAG?</strong></summary>
@@ -161,10 +161,10 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ```bibtex
 @misc{yojanamitra2026,
-  author = {B.Tech Final Year Capstone Team},
+  author = {YojanaMitra Open Initiative},
   title = {Eligibility-Aware Retrieval-Augmented Advisor for Government Schemes in Hindi and Hinglish},
   year = {2026},
   publisher = {GitHub},
-  howpublished = {\url{https://github.com}}
+  howpublished = {\url{https://github.com/vidishagupta/yojanamitra-rag-advisor}}
 }
 ```

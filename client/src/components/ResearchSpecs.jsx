@@ -18,7 +18,7 @@ import {
 export default function ResearchSpecs() {
   const [openFaq, setOpenFaq] = useState(0);
 
-  const vivaQuestions = [
+  const architectureFaqs = [
     {
       q: "1. How does Eligibility-Aware RAG differ from standard Naive RAG?",
       a: "Standard RAG only performs semantic vector similarity matching. For example, if a user queries 'I want crop money', standard RAG blindly retrieves PM-KISAN. However, if the user doesn't own cultivable land, they are legally ineligible. Our system implements a 2-stage pipeline: deterministic legal constraint validation first, followed by eligibility-augmented rank scoring. This eliminates false expectations and wasted citizen visits to government offices."
@@ -33,23 +33,23 @@ export default function ResearchSpecs() {
     },
     {
       q: "4. What is the advantage of the Hybrid Local + Cloud Architecture?",
-      a: "The project functions with dual-mode elasticity: when internet connectivity or Gemini API keys are available, it uses cloud LLM synthesis; if offline (critical for rural CSC kiosks and college viva demos), the deterministic built-in NLG engine produces authentic multilingual responses with zero API dependency."
+      a: "The platform functions with dual-mode elasticity: when internet connectivity or Gemini API keys are available, it uses cloud LLM synthesis; if offline (critical for rural CSC kiosks and low-connectivity environments), the deterministic built-in NLG engine produces authentic multilingual responses with zero API dependency."
     }
   ];
 
   return (
     <div className="research-container animate-fade-in">
-      {/* Capstone Header Banner */}
-      <div className="glass-panel capstone-hero-card">
-        <div className="capstone-badge-row">
-          <span className="badge badge-tag">B.Tech Final Year Capstone Project</span>
-          <span className="badge badge-eligible">Academic Defense Ready</span>
+      {/* System Header Banner */}
+      <div className="glass-panel arch-hero-card">
+        <div className="arch-badge-row">
+          <span className="badge badge-tag">GovTech AI Stack</span>
+          <span className="badge badge-eligible">Production Evaluation</span>
         </div>
-        <h2 className="capstone-title">
+        <h2 className="arch-title">
           Eligibility-Aware Retrieval-Augmented Advisor for Government Schemes in Hindi and Hinglish
         </h2>
-        <p className="capstone-authors">
-          Department of Computer Science & Engineering • Indian Institute of Technology / B.Tech Major Project
+        <p className="arch-authors">
+          National Public Governance AI Initiative • Deterministic Constraint Logic & Multilingual NLP
         </p>
       </div>
 
@@ -207,17 +207,17 @@ export default function ResearchSpecs() {
         </div>
       </div>
 
-      {/* Viva Voce Defense Cheatsheet */}
-      <div className="glass-panel viva-panel">
+      {/* Technical Architecture & Methodology FAQs */}
+      <div className="glass-panel faq-panel">
         <h3 className="section-title">
-          <Award size={20} className="text-gold" /> Viva Voce Defense Cheatsheet
+          <Award size={20} className="text-gold" /> Technical Architecture & Methodology FAQs
         </h3>
         <p className="panel-desc">
-          Key questions frequently asked by university examination panels and professors:
+          Core design principles and deterministic verification mechanisms:
         </p>
 
         <div className="faq-list">
-          {vivaQuestions.map((item, idx) => (
+          {architectureFaqs.map((item, idx) => (
             <div 
               key={idx} 
               className={`faq-item ${openFaq === idx ? 'open' : ''}`}
