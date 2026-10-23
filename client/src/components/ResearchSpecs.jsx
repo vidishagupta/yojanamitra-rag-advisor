@@ -1,42 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { 
   Cpu, 
   Layers, 
   GitBranch, 
-  Award, 
   BarChart3, 
   CheckCircle2, 
-  HelpCircle, 
-  Code2, 
-  Database, 
-  ChevronDown, 
-  ChevronUp,
   ShieldAlert,
   Zap
 } from 'lucide-react';
 
 export default function ResearchSpecs() {
-  const [openFaq, setOpenFaq] = useState(0);
-
-  const architectureFaqs = [
-    {
-      q: "1. How does Eligibility-Aware RAG differ from standard Naive RAG?",
-      a: "Standard RAG only performs semantic vector similarity matching. For example, if a user queries 'I want crop money', standard RAG blindly retrieves PM-KISAN. However, if the user doesn't own cultivable land, they are legally ineligible. Our system implements a 2-stage pipeline: deterministic legal constraint validation first, followed by eligibility-augmented rank scoring. This eliminates false expectations and wasted citizen visits to government offices."
-    },
-    {
-      q: "2. How does the system handle Hinglish (code-mixed Hindi & English)?",
-      a: "Hinglish queries lack standard orthography (e.g. 'kisaan', 'kisan', 'kheti', 'zameen'). We utilize a hybrid lexical normalizer and semantic intent clustering dictionary mapping Romanized colloquial Hindi tokens to official ministry taxonomy categories before scoring."
-    },
-    {
-      q: "3. How do you guarantee zero hallucination regarding benefits and money amounts?",
-      a: "All factual monetary amounts (e.g. ₹6,000 for PM-KISAN, ₹5 Lakh for Ayushman Bharat) are retrieved directly from verified Ministry JSON schemas. The generation prompt explicitly forbids the LLM from inventing benefits or modifying statutory rules."
-    },
-    {
-      q: "4. What is the advantage of the Hybrid Local + Cloud Architecture?",
-      a: "The platform functions with dual-mode elasticity: when internet connectivity or Gemini API keys are available, it uses cloud LLM synthesis; if offline (critical for rural CSC kiosks and low-connectivity environments), the deterministic built-in NLG engine produces authentic multilingual responses with zero API dependency."
-    }
-  ];
-
   return (
     <div className="research-container animate-fade-in">
       {/* System Header Banner */}
@@ -204,36 +177,6 @@ export default function ResearchSpecs() {
               </tr>
             </tbody>
           </table>
-        </div>
-      </div>
-
-      {/* Technical Architecture & Methodology FAQs */}
-      <div className="glass-panel faq-panel">
-        <h3 className="section-title">
-          <Award size={20} className="text-gold" /> Technical Architecture & Methodology FAQs
-        </h3>
-        <p className="panel-desc">
-          Core design principles and deterministic verification mechanisms:
-        </p>
-
-        <div className="faq-list">
-          {architectureFaqs.map((item, idx) => (
-            <div 
-              key={idx} 
-              className={`faq-item ${openFaq === idx ? 'open' : ''}`}
-              onClick={() => setOpenFaq(openFaq === idx ? null : idx)}
-            >
-              <div className="faq-question-row">
-                <span className="faq-q-text">{item.q}</span>
-                {openFaq === idx ? <ChevronUp size={18} /> : <ChevronDown size={18} />}
-              </div>
-              {openFaq === idx && (
-                <div className="faq-answer-row">
-                  <p>{item.a}</p>
-                </div>
-              )}
-            </div>
-          ))}
         </div>
       </div>
     </div>
